@@ -92,25 +92,31 @@
             // UsuarioSfButton
             // 
             this.UsuarioSfButton.AccessibleName = "Button";
+            this.UsuarioSfButton.BackColor = System.Drawing.Color.LightCoral;
             this.UsuarioSfButton.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.UsuarioSfButton.Location = new System.Drawing.Point(54, 101);
+            this.UsuarioSfButton.Location = new System.Drawing.Point(48, 101);
             this.UsuarioSfButton.Name = "UsuarioSfButton";
-            this.UsuarioSfButton.Size = new System.Drawing.Size(121, 28);
+            this.UsuarioSfButton.Size = new System.Drawing.Size(127, 39);
+            this.UsuarioSfButton.Style.BackColor = System.Drawing.Color.LightCoral;
             this.UsuarioSfButton.Style.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
             this.UsuarioSfButton.TabIndex = 15;
             this.UsuarioSfButton.Text = "Iniciar Sesión";
+            this.UsuarioSfButton.UseVisualStyleBackColor = false;
             this.UsuarioSfButton.Click += new System.EventHandler(this.UsuarioSfButton_Click);
             // 
             // CerrarSfButton
             // 
             this.CerrarSfButton.AccessibleName = "Button";
+            this.CerrarSfButton.BackColor = System.Drawing.Color.LightCoral;
             this.CerrarSfButton.Font = new System.Drawing.Font("Segoe UI Semibold", 9F);
-            this.CerrarSfButton.Location = new System.Drawing.Point(194, 101);
+            this.CerrarSfButton.Location = new System.Drawing.Point(196, 101);
             this.CerrarSfButton.Name = "CerrarSfButton";
-            this.CerrarSfButton.Size = new System.Drawing.Size(96, 28);
-            this.CerrarSfButton.Style.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.CerrarSfButton.Size = new System.Drawing.Size(111, 39);
+            this.CerrarSfButton.Style.BackColor = System.Drawing.Color.LightCoral;
+            this.CerrarSfButton.Style.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
             this.CerrarSfButton.TabIndex = 16;
             this.CerrarSfButton.Text = "Cerrar";
+            this.CerrarSfButton.UseVisualStyleBackColor = false;
             this.CerrarSfButton.Click += new System.EventHandler(this.CerrarSfButton_Click);
             // 
             // errorProvider1
@@ -119,9 +125,12 @@
             // 
             // Login
             // 
+            this.AcceptButton = this.UsuarioSfButton;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(462, 175);
+            this.BackColor = System.Drawing.Color.IndianRed;
+            this.CancelButton = this.CerrarSfButton;
+            this.ClientSize = new System.Drawing.Size(462, 153);
             this.Controls.Add(this.CerrarSfButton);
             this.Controls.Add(this.UsuarioSfButton);
             this.Controls.Add(this.pictureBox1);

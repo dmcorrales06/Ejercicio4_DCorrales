@@ -59,11 +59,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Berlin Sans FB", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(61, 190);
+            this.label1.Location = new System.Drawing.Point(86, 190);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(413, 32);
+            this.label1.Size = new System.Drawing.Size(364, 31);
             this.label1.TabIndex = 14;
             this.label1.Text = "BIENVENIDO A WINDOWS 10";
             // 
